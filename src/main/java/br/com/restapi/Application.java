@@ -1,13 +1,14 @@
 package br.com.restapi;
 
+import br.com.restapi.domain.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JunitMockitoRestApiApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(JunitMockitoRestApiApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
